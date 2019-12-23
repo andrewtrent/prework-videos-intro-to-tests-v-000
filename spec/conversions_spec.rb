@@ -8,7 +8,7 @@ describe "conversions" do
     end
     it 'given 1, returns 28.3495' do
       grams = ounces_to_grams(1)
-      expect(grams).to eq(28.3495)
+      expect(grams).to eq(28.395)
     end
   end
 end
